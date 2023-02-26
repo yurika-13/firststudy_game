@@ -2,8 +2,10 @@
 import './App.css';
 import Login from "./components/login"
 import GamePlay from "./components/game";
+import PopupGameover from "./components/gameover"
 // import {Link} from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Answer from "./components/answer"
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         {/* <Route path={`/`} element={<Home />} /> */}
         <Route path={`/GamePlay/`} element={<GamePlay/>} />
         <Route path={`/`} element={<Login/>} />
+        <Route path={`/gameOver/`} element={<PopupGameover/>} />
+        <Route path={`/Answer/`} element={<Answer/>} />
       </Routes>
     </BrowserRouter>
   );
