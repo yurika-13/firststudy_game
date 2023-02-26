@@ -1,0 +1,24 @@
+.overlay{
+    /*背景をグレーにして、ボタンをクリックできないようにする*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameover{
+    z-index: 2;
+    width: 50%;
+    padding: 1em;
+    background: white;
+    text-align: center;
+}
+
+
+

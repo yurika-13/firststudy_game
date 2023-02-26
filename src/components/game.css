@@ -1,4 +1,4 @@
-.firstGame{
+.gameplay{
     text-align: center;
 }
 
@@ -6,4 +6,9 @@
     width: 200px;
     height: 200px;
     margin-bottom: 10px;
+}
+
+#sea_bream{
+    width: 330px;
+    height: 270px;
 }
