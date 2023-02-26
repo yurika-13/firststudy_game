@@ -2,7 +2,7 @@ import React from "react";
 import "./gameover.css";
 import {Link} from "react-router-dom";
 import { useState } from "react";
-import answer from "./answer";
+import Answer from "./answer";
 
 
 function PopupGameover(){
