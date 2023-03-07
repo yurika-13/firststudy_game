@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Login from "./components/login"
-import GamePlay from "./components/game";
+import {GamePlay} from "./components/game";
 import PopupGameover from "./components/gameover"
 // import {Link} from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
